@@ -5,9 +5,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CountriesEntity {
+public class PokemonsEntity {
     private String id;
     private String name;
     private String code;
-    private String description;
+    private Integer level;
 }
