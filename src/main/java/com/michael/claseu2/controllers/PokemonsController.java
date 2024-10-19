@@ -26,12 +26,12 @@ public class PokemonsController {
     }
 
     @PostMapping("/pokemons")
-    public Boolean createpokemons(@RequestBody PokemonsEntity pokemons) {
+    public PokemonsEntity createpokemons(@RequestBody PokemonsEntity pokemons) {
         return pokemonsService.setPokemons(pokemons);
     }
 
     @PutMapping("/pokemons/{id}")
-    public Boolean updatePokemons(@PathVariable String id, @RequestBody PokemonsEntity pokemons) {
+    public PokemonsEntity updatePokemons(@PathVariable String id, @RequestBody PokemonsEntity pokemons) {
         return pokemonsService.updatePokemons(id, pokemons);
     }
 

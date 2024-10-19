@@ -34,11 +34,13 @@ public class PokemonsService {
                 .findFirst();
     }
 
-    public Boolean setPokemons(PokemonsEntity pokemons) {
-        return this.pokemons.add(pokemons);
+    public PokemonsEntity setPokemons(PokemonsEntity pokemons) {
+        pokemons.setId(UUID.randomUUID().toString());
+        this.pokemons.add(pokemons);
+        return pokemons;
     }
 
-    public Boolean updatePokemons(String id, PokemonsEntity pokemons) {
+    public PokemonsEntity updatePokemons(String id, PokemonsEntity pokemons) {
         this.deletePokemons(id);
         pokemons.setId(id);
         return this.setPokemons(pokemons);
