@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -13,28 +14,29 @@ public class CountriesController {
 
     @Autowired
     CountriesService countriesService;
+
     @GetMapping("/countries")
     public List<CountriesEntity> getCountries() {
         return countriesService.getCountries();
     }
 
     @GetMapping("/countries/{id}")
-    public String getByIdCountries(@PathVariable String id) {
-        return "";
+    public Optional<CountriesEntity> getByIdCountries(@PathVariable String id) {
+        return countriesService.getCountries(id);
     }
 
     @PostMapping("/countries")
-    public String createCountries(String[] args) {
-        return "";
+    public Boolean createCountries(@RequestBody CountriesEntity country) {
+        return countriesService.setCountries(country);
     }
 
     @PutMapping("/countries/{id}")
-    public String updateCountries(@PathVariable String id, @RequestBody Object country) {
-        return "";
+    public Boolean updateCountries(@PathVariable String id, @RequestBody CountriesEntity country) {
+        return countriesService.updateCountries(id, country);
     }
 
     @DeleteMapping("/countries/{id}")
-    public String deleteCountries(@PathVariable String id) {
-        return "";
+    public Boolean deleteCountries(@PathVariable String id) {
+        return countriesService.deleteCountries(id);
     }
 }
