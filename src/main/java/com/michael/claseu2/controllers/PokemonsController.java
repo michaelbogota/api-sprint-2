@@ -13,30 +13,30 @@ import java.util.Optional;
 public class PokemonsController {
 
     @Autowired
-    PokemonsService PokemonsService;
+    PokemonsService pokemonsService;
 
     @GetMapping("/pokemons")
     public List<PokemonsEntity> getPokemons() {
-        return PokemonsService.getPokemons();
+        return pokemonsService.getPokemons();
     }
 
     @GetMapping("/pokemons/{id}")
     public Optional<PokemonsEntity> getByIdpokemons(@PathVariable String id) {
-        return PokemonsService.getPokemons(id);
+        return pokemonsService.getPokemons(id);
     }
 
     @PostMapping("/pokemons")
     public Boolean createpokemons(@RequestBody PokemonsEntity pokemons) {
-        return PokemonsService.setPokemons(pokemons);
+        return pokemonsService.setPokemons(pokemons);
     }
 
     @PutMapping("/pokemons/{id}")
     public Boolean updatePokemons(@PathVariable String id, @RequestBody PokemonsEntity pokemons) {
-        return PokemonsService.updatePokemons(id, pokemons);
+        return pokemonsService.updatePokemons(id, pokemons);
     }
 
     @DeleteMapping("/pokemons/{id}")
     public Boolean deletePokemons(@PathVariable String id) {
-        return PokemonsService.deletePokemons(id);
+        return pokemonsService.deletePokemons(id);
     }
 }
