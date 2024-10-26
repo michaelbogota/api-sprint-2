@@ -6,89 +6,69 @@
 	},
 	"item": [
 		{
-			"name": "Get Fruits",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": [
+			"name": "Fruits",
+			"item": [
 				{
 					"name": "Get Fruits",
-					"originalRequest": {
+					"request": {
 						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "127.0.0.1:8443/api/v1/fruits",
-							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
-							],
-							"port": "8443",
-							"path": [
-								"api",
-								"v1",
-								"fruits"
-							]
-						}
+						"header": []
 					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
+					"response": [
 						{
-							"key": "Content-Type",
-							"value": "application/json"
-						},
-						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
-						},
-						{
-							"key": "Date",
-							"value": "Sat, 26 Oct 2024 00:48:13 GMT"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=60"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
+							"name": "Get Fruits",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/fruits",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"fruits"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:48:13 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n        \"name\": \"Anya Connelly\",\n        \"code\": \"B000A3LPTC\",\n        \"reference\": \"1502898381050\",\n        \"stock\": 6,\n        \"price\": \"7.74\"\n    },\n    {\n        \"id\": \"e39d2e49-232d-4927-9330-ed8540890f29\",\n        \"name\": \"Benny Lemke\",\n        \"code\": \"B0009QW44A\",\n        \"reference\": \"3326753791635\",\n        \"stock\": 6,\n        \"price\": \"50.79\"\n    },\n    {\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n    },\n    {\n        \"id\": \"b44d6ab2-74e9-4324-aa23-d9e848fddd20\",\n        \"name\": \"Miss Carmine Herzog\",\n        \"code\": \"B000Q313FC\",\n        \"reference\": \"6507861153868\",\n        \"stock\": 6,\n        \"price\": \"58.09\"\n    },\n    {\n        \"id\": \"d7380a36-234d-4a38-86e7-ee851ddf5c56\",\n        \"name\": \"Noble Larson\",\n        \"code\": \"B000JSBHCS\",\n        \"reference\": \"5651761357916\",\n        \"stock\": 5,\n        \"price\": \"94.21\"\n    },\n    {\n        \"id\": \"b186dece-fa39-4624-919f-b3f48ee70619\",\n        \"name\": \"Ms. Raven Pouros\",\n        \"code\": \"B0006PJMEE\",\n        \"reference\": \"2389757103751\",\n        \"stock\": 4,\n        \"price\": \"12.21\"\n    },\n    {\n        \"id\": \"14933d7c-4649-4c2b-a2f4-7a594faa9a19\",\n        \"name\": \"Issac Kovacek\",\n        \"code\": \"B000BQ2HR2\",\n        \"reference\": \"8605470458683\",\n        \"stock\": 7,\n        \"price\": \"72.63\"\n    },\n    {\n        \"id\": \"f59b3abb-3c84-4066-989c-c22b7082acd0\",\n        \"name\": \"Oran Anderson DDS\",\n        \"code\": \"B00067668W\",\n        \"reference\": \"9295531454151\",\n        \"stock\": 0,\n        \"price\": \"60.26\"\n    },\n    {\n        \"id\": \"e2e6b46e-b6e8-4ffb-a9ac-2935c6570663\",\n        \"name\": \"Mortimer Berge Sr.\",\n        \"code\": \"B000A2MHMW\",\n        \"reference\": \"8178918756028\",\n        \"stock\": 7,\n        \"price\": \"8.76\"\n    },\n    {\n        \"id\": \"e15dc0fa-c8a1-4b5a-91b3-6183e7ec07b6\",\n        \"name\": \"Mr. Ilene Kuphal\",\n        \"code\": \"B000A143NO\",\n        \"reference\": \"3040079597428\",\n        \"stock\": 4,\n        \"price\": \"58.27\"\n    }\n]"
 						}
-					],
-					"cookie": [],
-					"body": "[\n    {\n        \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n        \"name\": \"Anya Connelly\",\n        \"code\": \"B000A3LPTC\",\n        \"reference\": \"1502898381050\",\n        \"stock\": 6,\n        \"price\": \"7.74\"\n    },\n    {\n        \"id\": \"e39d2e49-232d-4927-9330-ed8540890f29\",\n        \"name\": \"Benny Lemke\",\n        \"code\": \"B0009QW44A\",\n        \"reference\": \"3326753791635\",\n        \"stock\": 6,\n        \"price\": \"50.79\"\n    },\n    {\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n    },\n    {\n        \"id\": \"b44d6ab2-74e9-4324-aa23-d9e848fddd20\",\n        \"name\": \"Miss Carmine Herzog\",\n        \"code\": \"B000Q313FC\",\n        \"reference\": \"6507861153868\",\n        \"stock\": 6,\n        \"price\": \"58.09\"\n    },\n    {\n        \"id\": \"d7380a36-234d-4a38-86e7-ee851ddf5c56\",\n        \"name\": \"Noble Larson\",\n        \"code\": \"B000JSBHCS\",\n        \"reference\": \"5651761357916\",\n        \"stock\": 5,\n        \"price\": \"94.21\"\n    },\n    {\n        \"id\": \"b186dece-fa39-4624-919f-b3f48ee70619\",\n        \"name\": \"Ms. Raven Pouros\",\n        \"code\": \"B0006PJMEE\",\n        \"reference\": \"2389757103751\",\n        \"stock\": 4,\n        \"price\": \"12.21\"\n    },\n    {\n        \"id\": \"14933d7c-4649-4c2b-a2f4-7a594faa9a19\",\n        \"name\": \"Issac Kovacek\",\n        \"code\": \"B000BQ2HR2\",\n        \"reference\": \"8605470458683\",\n        \"stock\": 7,\n        \"price\": \"72.63\"\n    },\n    {\n        \"id\": \"f59b3abb-3c84-4066-989c-c22b7082acd0\",\n        \"name\": \"Oran Anderson DDS\",\n        \"code\": \"B00067668W\",\n        \"reference\": \"9295531454151\",\n        \"stock\": 0,\n        \"price\": \"60.26\"\n    },\n    {\n        \"id\": \"e2e6b46e-b6e8-4ffb-a9ac-2935c6570663\",\n        \"name\": \"Mortimer Berge Sr.\",\n        \"code\": \"B000A2MHMW\",\n        \"reference\": \"8178918756028\",\n        \"stock\": 7,\n        \"price\": \"8.76\"\n    },\n    {\n        \"id\": \"e15dc0fa-c8a1-4b5a-91b3-6183e7ec07b6\",\n        \"name\": \"Mr. Ilene Kuphal\",\n        \"code\": \"B000A143NO\",\n        \"reference\": \"3040079597428\",\n        \"stock\": 4,\n        \"price\": \"58.27\"\n    }\n]"
-				}
-			]
-		},
-		{
-			"name": "Get Fruits Id",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "127.0.0.1:8443/api/v1/fruits/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8443",
-					"path": [
-						"api",
-						"v1",
-						"fruits",
-						"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
 					]
-				}
-			},
-			"response": [
+				},
 				{
 					"name": "Get Fruits Id",
-					"originalRequest": {
+					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -108,70 +88,62 @@
 							]
 						}
 					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
+					"response": [
 						{
-							"key": "Content-Type",
-							"value": "application/json"
-						},
-						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
-						},
-						{
-							"key": "Date",
-							"value": "Sat, 26 Oct 2024 00:51:17 GMT"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=60"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
+							"name": "Get Fruits Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/fruits/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"fruits",
+										"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:51:17 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n    \"name\": \"Anya Connelly\",\n    \"code\": \"B000A3LPTC\",\n    \"reference\": \"1502898381050\",\n    \"stock\": 6,\n    \"price\": \"7.74\"\n}"
 						}
-					],
-					"cookie": [],
-					"body": "{\n    \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n    \"name\": \"Anya Connelly\",\n    \"code\": \"B000A3LPTC\",\n    \"reference\": \"1502898381050\",\n    \"stock\": 6,\n    \"price\": \"7.74\"\n}"
-				}
-			]
-		},
-		{
-			"name": "POST Fruits",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "127.0.0.1:8443/api/v1/fruits",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8443",
-					"path": [
-						"api",
-						"v1",
-						"fruits"
 					]
-				}
-			},
-			"response": [
+				},
 				{
 					"name": "POST Fruits",
-					"originalRequest": {
+					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -199,75 +171,74 @@
 							]
 						}
 					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
+					"response": [
 						{
-							"key": "Content-Type",
-							"value": "application/json"
-						},
-						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
-						},
-						{
-							"key": "Date",
-							"value": "Sat, 26 Oct 2024 00:56:03 GMT"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=60"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
+							"name": "POST Fruits",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/fruits",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"fruits"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:56:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"68480ed6-1682-4d3c-a753-c43e047d132e\",\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}"
 						}
-					],
-					"cookie": [],
-					"body": "{\n    \"id\": \"68480ed6-1682-4d3c-a753-c43e047d132e\",\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}"
-				}
-			]
-		},
-		{
-			"name": "Delete Fruits",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "127.0.0.1:8443/api/v1/fruits/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8443",
-					"path": [
-						"api",
-						"v1",
-						"fruits",
-						"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
 					]
-				}
-			},
-			"response": [
+				},
 				{
 					"name": "Delete Fruits",
-					"originalRequest": {
+					"request": {
 						"method": "DELETE",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
 						"url": {
-							"raw": "127.0.0.1:8443/api/v1/fruits/c8a499ac-397e-45da-9256-018ddca56ca0",
+							"raw": "127.0.0.1:8443/api/v1/fruits/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
 							"host": [
 								"127",
 								"0",
@@ -279,37 +250,697 @@
 								"api",
 								"v1",
 								"fruits",
-								"c8a499ac-397e-45da-9256-018ddca56ca0"
+								"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
 							]
 						}
 					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
+					"response": [
 						{
-							"key": "Content-Type",
-							"value": "application/json"
-						},
-						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
-						},
-						{
-							"key": "Date",
-							"value": "Sat, 26 Oct 2024 00:59:37 GMT"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=60"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
+							"name": "Delete Fruits",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/fruits/c8a499ac-397e-45da-9256-018ddca56ca0",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"fruits",
+										"c8a499ac-397e-45da-9256-018ddca56ca0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:59:37 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "true"
 						}
-					],
-					"cookie": [],
-					"body": "true"
+					]
+				}
+			]
+		},
+		{
+			"name": "Meat",
+			"item": [
+				{
+					"name": "Get Meat",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get Meat",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/meat",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"meat"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:48:13 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n        \"name\": \"Anya Connelly\",\n        \"code\": \"B000A3LPTC\",\n        \"reference\": \"1502898381050\",\n        \"stock\": 6,\n        \"price\": \"7.74\"\n    },\n    {\n        \"id\": \"e39d2e49-232d-4927-9330-ed8540890f29\",\n        \"name\": \"Benny Lemke\",\n        \"code\": \"B0009QW44A\",\n        \"reference\": \"3326753791635\",\n        \"stock\": 6,\n        \"price\": \"50.79\"\n    },\n    {\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n    },\n    {\n        \"id\": \"b44d6ab2-74e9-4324-aa23-d9e848fddd20\",\n        \"name\": \"Miss Carmine Herzog\",\n        \"code\": \"B000Q313FC\",\n        \"reference\": \"6507861153868\",\n        \"stock\": 6,\n        \"price\": \"58.09\"\n    },\n    {\n        \"id\": \"d7380a36-234d-4a38-86e7-ee851ddf5c56\",\n        \"name\": \"Noble Larson\",\n        \"code\": \"B000JSBHCS\",\n        \"reference\": \"5651761357916\",\n        \"stock\": 5,\n        \"price\": \"94.21\"\n    },\n    {\n        \"id\": \"b186dece-fa39-4624-919f-b3f48ee70619\",\n        \"name\": \"Ms. Raven Pouros\",\n        \"code\": \"B0006PJMEE\",\n        \"reference\": \"2389757103751\",\n        \"stock\": 4,\n        \"price\": \"12.21\"\n    },\n    {\n        \"id\": \"14933d7c-4649-4c2b-a2f4-7a594faa9a19\",\n        \"name\": \"Issac Kovacek\",\n        \"code\": \"B000BQ2HR2\",\n        \"reference\": \"8605470458683\",\n        \"stock\": 7,\n        \"price\": \"72.63\"\n    },\n    {\n        \"id\": \"f59b3abb-3c84-4066-989c-c22b7082acd0\",\n        \"name\": \"Oran Anderson DDS\",\n        \"code\": \"B00067668W\",\n        \"reference\": \"9295531454151\",\n        \"stock\": 0,\n        \"price\": \"60.26\"\n    },\n    {\n        \"id\": \"e2e6b46e-b6e8-4ffb-a9ac-2935c6570663\",\n        \"name\": \"Mortimer Berge Sr.\",\n        \"code\": \"B000A2MHMW\",\n        \"reference\": \"8178918756028\",\n        \"stock\": 7,\n        \"price\": \"8.76\"\n    },\n    {\n        \"id\": \"e15dc0fa-c8a1-4b5a-91b3-6183e7ec07b6\",\n        \"name\": \"Mr. Ilene Kuphal\",\n        \"code\": \"B000A143NO\",\n        \"reference\": \"3040079597428\",\n        \"stock\": 4,\n        \"price\": \"58.27\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get Meat Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8443/api/v1/meat/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8443",
+							"path": [
+								"api",
+								"v1",
+								"meat",
+								"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Meat Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/meat/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"meat",
+										"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:51:17 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n    \"name\": \"Anya Connelly\",\n    \"code\": \"B000A3LPTC\",\n    \"reference\": \"1502898381050\",\n    \"stock\": 6,\n    \"price\": \"7.74\"\n}"
+						}
+					]
+				},
+				{
+					"name": "POST Meat",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8443/api/v1/meat",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8443",
+							"path": [
+								"api",
+								"v1",
+								"meat"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "POST Meat",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/meat",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"meat"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:56:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"68480ed6-1682-4d3c-a753-c43e047d132e\",\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Meat",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8443/api/v1/meat/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8443",
+							"path": [
+								"api",
+								"v1",
+								"meat",
+								"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Meat",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/meat/c8a499ac-397e-45da-9256-018ddca56ca0",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"meat",
+										"c8a499ac-397e-45da-9256-018ddca56ca0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:59:37 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "true"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vegetable",
+			"item": [
+				{
+					"name": "Get Vegetable",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get Vegetable",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/vegetable",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"vegetable"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:48:13 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n        \"name\": \"Anya Connelly\",\n        \"code\": \"B000A3LPTC\",\n        \"reference\": \"1502898381050\",\n        \"stock\": 6,\n        \"price\": \"7.74\"\n    },\n    {\n        \"id\": \"e39d2e49-232d-4927-9330-ed8540890f29\",\n        \"name\": \"Benny Lemke\",\n        \"code\": \"B0009QW44A\",\n        \"reference\": \"3326753791635\",\n        \"stock\": 6,\n        \"price\": \"50.79\"\n    },\n    {\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n    },\n    {\n        \"id\": \"b44d6ab2-74e9-4324-aa23-d9e848fddd20\",\n        \"name\": \"Miss Carmine Herzog\",\n        \"code\": \"B000Q313FC\",\n        \"reference\": \"6507861153868\",\n        \"stock\": 6,\n        \"price\": \"58.09\"\n    },\n    {\n        \"id\": \"d7380a36-234d-4a38-86e7-ee851ddf5c56\",\n        \"name\": \"Noble Larson\",\n        \"code\": \"B000JSBHCS\",\n        \"reference\": \"5651761357916\",\n        \"stock\": 5,\n        \"price\": \"94.21\"\n    },\n    {\n        \"id\": \"b186dece-fa39-4624-919f-b3f48ee70619\",\n        \"name\": \"Ms. Raven Pouros\",\n        \"code\": \"B0006PJMEE\",\n        \"reference\": \"2389757103751\",\n        \"stock\": 4,\n        \"price\": \"12.21\"\n    },\n    {\n        \"id\": \"14933d7c-4649-4c2b-a2f4-7a594faa9a19\",\n        \"name\": \"Issac Kovacek\",\n        \"code\": \"B000BQ2HR2\",\n        \"reference\": \"8605470458683\",\n        \"stock\": 7,\n        \"price\": \"72.63\"\n    },\n    {\n        \"id\": \"f59b3abb-3c84-4066-989c-c22b7082acd0\",\n        \"name\": \"Oran Anderson DDS\",\n        \"code\": \"B00067668W\",\n        \"reference\": \"9295531454151\",\n        \"stock\": 0,\n        \"price\": \"60.26\"\n    },\n    {\n        \"id\": \"e2e6b46e-b6e8-4ffb-a9ac-2935c6570663\",\n        \"name\": \"Mortimer Berge Sr.\",\n        \"code\": \"B000A2MHMW\",\n        \"reference\": \"8178918756028\",\n        \"stock\": 7,\n        \"price\": \"8.76\"\n    },\n    {\n        \"id\": \"e15dc0fa-c8a1-4b5a-91b3-6183e7ec07b6\",\n        \"name\": \"Mr. Ilene Kuphal\",\n        \"code\": \"B000A143NO\",\n        \"reference\": \"3040079597428\",\n        \"stock\": 4,\n        \"price\": \"58.27\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get Vegetable Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8443/api/v1/vegetable/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8443",
+							"path": [
+								"api",
+								"v1",
+								"vegetable",
+								"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Vegetable Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/vegetable/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"vegetable",
+										"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:51:17 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb\",\n    \"name\": \"Anya Connelly\",\n    \"code\": \"B000A3LPTC\",\n    \"reference\": \"1502898381050\",\n    \"stock\": 6,\n    \"price\": \"7.74\"\n}"
+						}
+					]
+				},
+				{
+					"name": "POST Vegetable",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8443/api/v1/vegetable",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8443",
+							"path": [
+								"api",
+								"v1",
+								"vegetable"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "POST Vegetable",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/vegetable",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"vegetable"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:56:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"68480ed6-1682-4d3c-a753-c43e047d132e\",\n    \"name\": \"Passion Fruit\",\n    \"code\": \"B00066USKU\",\n    \"reference\": \"2192345497572\",\n    \"stock\": 2,\n    \"price\": \"32.75\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Vegetable",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8443/api/v1/vegetable/a2f4647b-0d5f-4422-81b4-b9ffaadc04bb",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8443",
+							"path": [
+								"api",
+								"v1",
+								"vegetable",
+								"a2f4647b-0d5f-4422-81b4-b9ffaadc04bb"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Vegetable",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n        \"id\": \"c8a499ac-397e-45da-9256-018ddca56ca0\",\n        \"name\": \"Gennaro Rosenbaum\",\n        \"code\": \"B000JKKCMW\",\n        \"reference\": \"6297799185931\",\n        \"stock\": 7,\n        \"price\": \"45.23\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "127.0.0.1:8443/api/v1/vegetable/c8a499ac-397e-45da-9256-018ddca56ca0",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8443",
+									"path": [
+										"api",
+										"v1",
+										"vegetable",
+										"c8a499ac-397e-45da-9256-018ddca56ca0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 26 Oct 2024 00:59:37 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "true"
+						}
+					]
 				}
 			]
 		}

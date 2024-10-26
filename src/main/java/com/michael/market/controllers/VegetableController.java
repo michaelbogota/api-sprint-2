@@ -15,27 +15,27 @@ public class VegetableController {
     @Autowired
     VegetableService VegetableService;
 
-    @GetMapping("/vegetables")
+    @GetMapping("/vegetable")
     public List<VegetableEntity> getVegetables() {
         return VegetableService.getVegetables();
     }
 
-    @GetMapping("/vegetables/{id}")
+    @GetMapping("/vegetable/{id}")
     public Optional<VegetableEntity> getByIdVegetables(@PathVariable String id) {
         return VegetableService.getVegetables(id);
     }
 
-    @PostMapping("/vegetables")
+    @PostMapping("/vegetable")
     public VegetableEntity createVegetables(@RequestBody VegetableEntity Vegetables) {
         return VegetableService.setVegetables(Vegetables);
     }
 
-    @PutMapping("/vegetables/{id}")
+    @PutMapping("/vegetable/{id}")
     public VegetableEntity updateVegetables(@PathVariable String id, @RequestBody VegetableEntity Vegetables) {
         return VegetableService.updateVegetables(id, Vegetables);
     }
 
-    @DeleteMapping("/vegetables/{id}")
+    @DeleteMapping("/vegetable/{id}")
     public Boolean deleteVegetables(@PathVariable String id) {
         return VegetableService.deleteVegetables(id);
     }
