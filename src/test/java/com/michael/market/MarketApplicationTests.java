@@ -1,10 +1,10 @@
-package com.michael.claseu2;
+package com.michael.market;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClaseU2ApplicationTests {
+class MarketApplicationTests {
 
     @Test
     void contextLoads() {
